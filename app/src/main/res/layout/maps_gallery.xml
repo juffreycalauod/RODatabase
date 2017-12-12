@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/ama_fild01_img"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:contentDescription="@string/Image"
+            app:srcCompat="@drawable/ama_fild01"/>
+
+        <TextView
+            android:id="@+id/ama_fild01_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="1dp"
+            android:gravity="center"
+            android:text="@string/ama_fild01"
+            tools:ignore="UnusedAttribute">
+
+        </TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              tools:ignore="MissingPrefix">
+
+
+
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/oneHandedSwords"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="goToSwords"
+            android:text="@string/OneHandedSwords"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#424242"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/Bows"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="goToBows"
+            android:text="@string/Bows"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#424242"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/daggers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToDaggers"
+            android:text="@string/Daggers"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/twoHandedSwords"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToTwoHandSwords"
+            android:text="@string/TwoHandedSwords"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/oneHandedSpears_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToOneHandedSpears"
+            android:text="@string/OneHandedSpears"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/twohandedspears_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToTwoHandedSpears"
+            android:text="@string/TwoHandedSpears"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/onehandedaxes_btn"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToOneHandedAxes"
+            android:text="@string/OneHandedAxes"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+
+            android:id="@+id/twohandedaxe_btn6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToTwoHandedAxes"
+            android:text="@string/TwoHandedAxes"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToOneHandedStaffs"
+            android:text="@string/OneHandedStaffs"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/maces_btn"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToMaces"
+            android:text="@string/Maces"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/musicalinstruments_btn"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goTOMusicalInstruments"
+            android:text="@string/MusicalInstruments"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/knuckles_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToKnuckles"
+            android:text="@string/Knuckles"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/books_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToBooks"
+            android:text="@string/Books"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/whips_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToWhips"
+            android:text="@string/Whips"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fuumashuriken_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToFuumaShuriken"
+            android:text="@string/FuumaShurikenn"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/katar_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:backgroundTint="#424242"
+            android:onClick="goToKatar"
+            android:text="@string/Katar"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/guns_btn"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             app:backgroundTint="#424242"
+            android:onClick="goToGuns"
+            android:text="@string/Guns"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

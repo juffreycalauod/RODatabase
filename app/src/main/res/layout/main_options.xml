@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="comjuffreycalauod.gmail.httpswww.RODatabase.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#0000"
+            android:contentDescription="@string/Image"
+            android:onClick="goToArmor"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/armor2"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageButton2"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageButton2"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/ARMORS"
+            android:textColor="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="22dp"
+            android:background="#0000"
+            android:contentDescription="@string/Image"
+            android:onClick="goToWeapons"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/swordicon"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageButton3"
+            android:layout_below="@+id/imageButton3"
+            android:layout_marginEnd="26dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="@string/WEAPONS"
+            android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:paddingTop="10dp"
+        tools:ignore="UnusedAttribute">
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#0000"
+            android:contentDescription="@string/Image"
+            android:onClick="goToCards"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/threecards"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageButton6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/imageButton6"
+            android:layout_centerInParent="false"
+
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/CARDS"
+            android:textColor="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_above="@+id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="24dp"
+            android:background="#0000"
+            android:contentDescription="@string/Image"
+            android:onClick="goToShields"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/shield_icon"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageButton7"
+            android:layout_alignStart="@+id/imageButton7"
+            android:layout_below="@+id/imageButton7"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/SHIELDS"
+            android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:paddingTop="10dp"
+        tools:ignore="UnusedAttribute">
+
+        <ImageButton
+            android:id="@+id/imageButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="false"
+            android:background="#0000"
+            android:contentDescription="@string/Image"
+            android:onClick="goToFootGears"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/runner"/>
+
+        <TextView
+            android:id="@+id/textView120"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageButton02"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/imageButton01"
+            android:layout_centerInParent="false"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/FOOTGEARS"
+            android:textColor="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/imageButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="24dp"
+            android:background="#0000"
+            android:contentDescription="@string/Image"
+            android:onClick="goToGarments"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/cardigan"/>
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageButton01"
+            android:layout_alignStart="@+id/imageButton01"
+            android:layout_below="@+id/imageButton01"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/GARMENTS"
+            android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:paddingTop="10dp"
+        tools:ignore="UnusedAttribute">
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#0000"
+            android:contentDescription="@string/Image"
+            android:onClick="goToMonsters"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/halloweenghost"/>
+
+        <TextView
+            android:id="@+id/textView300"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageButton4"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/imageButton4"
+            android:layout_centerInParent="false"
+            android:elevation="0dp"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/MONSTERS"
+            android:textColor="#FFFFFF"
+            tools:ignore="UnusedAttribute"/>
+
+        <ImageButton
+            android:id="@+id/imageButton300"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="25dp"
+            android:background="#0000"
+            android:contentDescription="@string/Image"
+            android:onClick="goToAccessories"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/sunglasses"/>
+
+        <TextView
+            android:id="@+id/textView302"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageButton300"
+            android:layout_below="@+id/imageButton300"
+            android:layout_marginEnd="15dp"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/ACCESSORIES"
+            android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#0000"
+        android:contentDescription="@string/Image"
+        android:onClick="goTOMaps"
+        android:paddingTop="10dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/placeholder"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="@string/Maps"
+        android:textColor="#FFFFFF"/>
+
+
+
+</LinearLayout>

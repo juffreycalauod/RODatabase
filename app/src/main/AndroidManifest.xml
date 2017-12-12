@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="comjuffreycalauod.gmail.httpswww.RODatabase">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+
+
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="RagnarokDB"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor"
+        tools:ignore="GoogleAppIndexingWarning">
+
+
+
+
+        <activity
+
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.MainActivity">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+
+
+
+        </activity>
+
+
+
+
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.CardsRecycler"
+            android:label="Cards"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.BowsRecycler"
+            android:label="Bows">
+        </activity>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.SwordsRecycler"
+            android:label="Swords"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.WeaponsLayout"
+            android:label="Weapons"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.TwoHandSwordsRecycler"
+            android:label="TwoHandedSwords">
+        </activity>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.DaggerRecycler"
+            android:label="Daggers"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.OneHandSpearRecycler"
+            android:label="OneHandedSpear"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.TwoHandedSpearsRecycler"
+            android:label="TwoHandedSpearsRecycler"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.OneHandedAxesRecycler"
+            android:label="OneHandedAxes"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.TwoHandedAxesRecycler"
+            android:label="TwoHandedAxe"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.MacesRecycler"
+            android:label="Maces"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.OneHandedStaffsRecycler"
+            android:label="OneHandedStaff"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.KnucklesRecycler"
+            android:label="Knuckles">
+        </activity>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.MusicalInstrumentsRecycler"
+            android:label="MusicalInstrument"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.WhipsRecycler"
+            android:label="Whips"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.BooksRecycler"
+            android:label="Books"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.KatarRecycler"
+            android:label="Katar"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.FuumaShurikenRecycler"
+            android:label="FuumaShuriken"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.GunsReycler"
+            android:label="Guns"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.ArmorRecycler"
+            android:label="Armor"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.ShieldRecycler"
+            android:label="Shields"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.GarmentRecycler"
+            android:label="Garments"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.FootgearRecycler"
+            android:label="FootGear"/>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.AccessoriesRecycler"
+            android:label="Accessories">
+        </activity>
+        <activity
+            android:name="comjuffreycalauod.gmail.httpswww.RODatabase.MonstersRecycler"
+            android:label="Monsters">
+        </activity>
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Card_details"
+                  android:label="Card Details">
+        </activity>
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Monster_details"
+                        android:label="Monster Details">
+
+        </activity>
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.ArmorDetails"
+                  android:label="Armor Details">
+
+        </activity>
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.ShieldDetails"
+                  android:label="Shield Details">
+
+        </activity>
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Footgear_details"
+                  android:label="Footgears Details">
+</activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Garment_details"
+                  android:label="Garments Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Accessories_details"
+                  android:label="Accessories Details">
+
+        </activity>
+
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Swords_details"
+                  android:label="Swords Details" >
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Bows_details"
+                  android:label="Bows Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Dagger_details"
+                  android:label="Daggers Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.TwoHandSword_details"
+                  android:label="TwoHandedSwordDetails">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.OneHandSpear_details"
+                  android:label="OneHandedSpears Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.TwoHandedSpears_details"
+                  android:label="TwoHandedSpears Details">
+
+        </activity>
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Onehandedaxes_details"
+                  android:label="OneHandedAxes Details">
+
+        </activity>
+
+
+    <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.TwoHandedAxes_details"
+              android:label="TwoHandedAxes Details">
+
+    </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Onehandedstaffs_details"
+                  android:label="Onehandedstaffs Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Maces_details"
+                  android:label="Maces Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.MusicalInstrument_details"
+                  android:label="MusicalInstruemnts Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Knuckles_details"
+                  android:label="Knuckles Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Books_details"
+                  android:label="Books Details">
+
+        </activity>
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Whip_details"
+                  android:label="Whips Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Fuumashuriken_details"
+                  android:label="FuumaShuriken Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Katar_details"
+                  android:label="Katar Details">
+
+        </activity>
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Guns_Details"
+                  android:label="Guns Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Maps_Recycler"
+                  android:label="Maps Details">
+
+        </activity>
+
+
+        <activity android:name="comjuffreycalauod.gmail.httpswww.RODatabase.Maps_details"
+                  android:label="Maps Details">
+
+        </activity>
+
+
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="3469b550dd026fa4a2094187355abe8a8c914bbf"
+            />
+
+
+
+
+
+    </application>
+
+
+
+
+
+
+
+</manifest>
